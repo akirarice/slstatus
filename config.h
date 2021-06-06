@@ -67,5 +67,5 @@ static const struct arg args[] = {
 	/* function format          argument */
 	{ run_command, "  %s ",	    "dwm_mpc"},
 	{ run_command, "%s ",	    "dwm_alsa"},
-	{ datetime, "%s ",           "%F %T" },
+	{ datetime, "%s ",           "%m/%d %R" },
 };
