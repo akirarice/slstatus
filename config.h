@@ -65,7 +65,8 @@ static const char unknown_str[] = "n/a";
  */
 static const struct arg args[] = {
 	/* function format          argument */
-	{ run_command, "  %s ",	    "dwm_mpc"},
+	{ run_command, " %s ",	    "dwm_mpc"},
+	{ run_command, "%s ",	    "dwm_resources"},
 	{ run_command, "%s ",	    "dwm_alsa"},
 	{ datetime, "%s ",           "%m/%d %R" },
 };
