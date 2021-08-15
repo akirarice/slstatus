@@ -65,8 +65,9 @@ static const char unknown_str[] = "n/a";
  */
 static const struct arg args[] = {
 	/* function format          argument */
-	{ run_command, " %s ",	    "dwm_mpc"},
-	{ run_command, "%s ",	    "dwm_resources"},
-	{ run_command, "%s ",	    "dwm_alsa"},
+	{ battery_perc, " %s%%|",	    "BAT0"},
+	{ temp	      , "%s°C|",	"/sys/class/thermal/thermal_zone1/temp"},
+	{ wifi_essid, "%s|",    "wlp3s0"},
+	{ vol_perc, "%s%%|",	    "/dev/audio"},
 	{ datetime, "%s ",           "%m/%d %R" },
 };
